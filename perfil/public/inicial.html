@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <style>
+
+        *{
+            background-color: #D0DDD7;
+        
+        }
+        form{
+            display:flex;
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+        }
+        input{
+            width: 15%;
+            height: 20%;
+            background-color: #7E846B;
+            color: #FFFF;
+        }
+
+
+
+        input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #FFFF;
+  opacity: 1; /* Firefox */
+}
+  button{
+    background-color: #594E36;
+            color: #FFFF;
+            width: 20%;
+            height: 20%;
+  }
+        
+    </style>
+</head>
+<body>
+   
+
+    <h2>Hora de buscar!</h2>
+    <form action="/daily" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome">
+        <br>
+        <br>
+        <button type="submit">Ver seu perfil</button>
+        <br>
+    </form>
+
+
+</body>
+</html>
