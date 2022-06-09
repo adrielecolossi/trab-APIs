@@ -1,0 +1,1 @@
+# trab1bim2ds2
