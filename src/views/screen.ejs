@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        *{
+            background-color: #D0DDD7;
+        
+        }
+     img{
+        width: 20%;
+     }
+        
+    </style>
+<body>    
+  <h1>Aqui está seu perfil!</h1>
+
+    
+    <h2>Sua idade é: <%= idade.age %></h2>
+        <%if (genero.gender == 'male') { %>
+            <h2>Seu gênero é: masculino</h2>
+            <% } else{%>
+                <h2>Seu gênero é: feminino</h2>
+                <%  }%>
+    <h2>Aqui está um doguinho para você:</h2>
+    <img src=<%= cachorro.message %> alt="Meu doguinho">
+</body>
+</html>
